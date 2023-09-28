@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(187, 230, 230);
+  align-items: center;
+  padding: 10px;
+}
+
+.container a{
+  align-items: center;
+  text-align: center;
+  height: 30px;
+  border-radius: 10px;
+  padding: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  border: solid 2px black;
+}
+
+.forms{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  /* padding: 20px; */
+  flex-direction: column;
+  gap: 1rem;
+  width: 30%;
+ 
+
+}
+
+.formC{
+  display:flex;
+  justify-content: center;
+  
+
+}
+
+.forms input{
+  padding: 15px;
+  /* width: 50%; */
+  border: none;
+  border-radius: 20px;
+  background: rgb(105, 208, 208);
+}
+
+
+
+button{
+  display: flex;
+  min-width: 80px;
+  justify-content: center;
+  padding: 12px;
+  background: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
